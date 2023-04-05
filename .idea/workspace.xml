@@ -4,29 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47493f57-c573-4005-9fa1-268dbae8487e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/SimpleKafkaSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/config/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/controller/MsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/dto/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/dto/UserDto.java" afterDir="false" />
+    <list default="true" id="47493f57-c573-4005-9fa1-268dbae8487e" name="Changes" comment="feat consumer, producer">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/ConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/consumer/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/org/example/ProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/org/example/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/org/example/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/java/org/example/producer/ProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/SimpleKafkaSpringBootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/config/KafkaConsumerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/config/KafkaProducerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/controller/MsgController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/dto/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplekafkaspringboot/dto/UserDto.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2NmWbMZWRnZkwQTvjnloEiQCvtu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,29 +72,58 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/dev/simple-kafka-spring-boot/src/main/java",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_directory_selection": "E:/dev/simple-kafka-spring-boot/producer/src/main/java/org/example",
+    "last_opened_file_path": "E:/dev/java-explore-with-me",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "616fd4b2ad8a6092cafe8539f2ea2717"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\dev\simple-kafka-spring-boot\src\main\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.model" />
+      <recent name="org.example.consumer.model" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SimpleKafkaSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="simple-kafka-spring-boot" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="simplekafkaspringboot.SimpleKafkaSpringBootApplication" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApp (1)">
+    <configuration name="org.example.consumer.ConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.consumer.ConsumerApp" />
+      <module name="consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ConsumerApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplekafkaspringboot.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,9 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ProducerApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.org.example.consumer.ConsumerApp" />
+      <item itemvalue="Spring Boot.ConsumerApp (1)" />
+      <item itemvalue="Spring Boot.ProducerApp (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SimpleKafkaSpringBootApplication" />
+        <item itemvalue="Spring Boot.ProducerApp (1)" />
+        <item itemvalue="Spring Boot.ConsumerApp (1)" />
+        <item itemvalue="Application.org.example.consumer.ConsumerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -80,12 +165,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680269809119</updated>
-      <workItem from="1680269810536" duration="544000" />
+      <workItem from="1680269810536" duration="1366000" />
+      <workItem from="1680609287473" duration="13602000" />
+      <workItem from="1680703659364" duration="9226000" />
     </task>
+    <task id="LOCAL-00001" summary="feat pom.xml">
+      <created>1680270628088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680270628088</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat dto, controller">
+      <created>1680270656986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680270656986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat consumer, producer">
+      <created>1680270742891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680270742891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka_2.13" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka-clients" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -97,5 +214,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat pom.xml" />
+    <MESSAGE value="feat dto, controller" />
+    <MESSAGE value="feat consumer, producer" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat consumer, producer" />
   </component>
 </project>
